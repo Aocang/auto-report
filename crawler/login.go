@@ -59,7 +59,7 @@ func setMirror(client http.Client) http.Client {
 		var target string
 		// tricky
 		if port == "7002" {
-			target = JW_Mirror
+			target = XGSM_Mirror
 		} else {
 			target = XGSM_Mirror
 		}
